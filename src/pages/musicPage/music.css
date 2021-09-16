@@ -1,0 +1,100 @@
+.musicContainer {
+    width: 800px;
+
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+
+.musicSearch {
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.inputSearchMusic {
+    outline: none;
+    border: 1px solid #eaeaea;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.musicList {
+    margin-top: 10px;
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    padding: 15px;
+
+
+}
+
+.musicItem {
+    width: 100%;
+
+
+    display: flex;
+    padding: 5px;
+    margin-top: 15px;
+
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.musicName {
+    background-color: inherit;
+}
+.artistName {
+    margin-top: 2px;
+    background-color: inherit;
+    font-size: 12px;
+    color: #6c6b6b;
+}
+.play {
+
+    height: 20px;
+    width: 20px;
+    margin-top: 8px;
+
+
+    background-color: inherit;
+
+
+}
+
+.muscicNameContainer {
+    font-size: 14px;
+    margin-left: 10px;
+
+    background-color: inherit;
+}
+
+.deleteMusic {
+    font-size: 12px;
+    position: absolute;
+    right: 45px;
+    margin-top: 10px;
+
+    background-color: inherit;
+
+    display: none;
+
+    color: #6c6b6b;
+}
+
+.musicItem:hover   {
+    background-color: #eaeaea;
+}
+.musicItem:hover .deleteMusic  {
+    display: flex;
+}
+.deleteMusic:hover {
+    color: #30323b;
+}
+
+
